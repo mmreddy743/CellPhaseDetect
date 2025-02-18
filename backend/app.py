@@ -26,7 +26,9 @@ logging.basicConfig(
     ]
 )
 
-app = Flask(__name__)
+#app = Flask(__name__)
+app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
+
 CORS(app)
 
 # Constants
@@ -214,6 +216,16 @@ def generate_visualization(channel_data, output_path):
             plt.close(fig)
         raise
 
+
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists(app.static_folder + '/' + path):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory(app.static_folder, 'index.html')
+
 @app.route('/upload', methods=['POST'])
 def upload_file():
     """Handle file upload with comprehensive error handling."""
@@ -302,4 +314,5 @@ def serve_static(filename):
 
 if __name__ == '__main__':
     setup_folders()
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
