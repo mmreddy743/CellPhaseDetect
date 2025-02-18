@@ -1,1 +1,1 @@
-web: mkdir -p ./static/uploads ./static/results && cd backend && gunicorn app:app --timeout 90
+web: mkdir -p ./static/uploads ./static/results && gunicorn --chdir backend app:app --timeout 90
