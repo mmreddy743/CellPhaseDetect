@@ -1,0 +1,173 @@
+2025-01-28 13:11:22,424 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 13:11:22,425 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 13:11:32,447 - INFO - File saved: ./static/uploads\20250128_131131_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 13:11:32,511 - ERROR - Error processing channels: 'ND2Reader' object has no attribute 'frame_count'
+2025-01-28 13:11:32,512 - ERROR - Upload error: 'ND2Reader' object has no attribute 'frame_count'
+2025-01-28 13:11:32,640 - INFO - 127.0.0.1 - - [28/Jan/2025 13:11:32] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-01-28 13:12:46,397 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 13:12:46,398 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 13:12:56,730 - INFO - File saved: ./static/uploads\20250128_131255_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 13:12:56,791 - INFO - Processing file with 4 channels, 14 Z-levels
+2025-01-28 13:12:57,113 - ERROR - Error processing channels: index out of range
+2025-01-28 13:12:57,113 - ERROR - Upload error: index out of range
+2025-01-28 13:12:57,172 - INFO - 127.0.0.1 - - [28/Jan/2025 13:12:57] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-01-28 13:14:12,930 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 13:14:12,930 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 13:14:19,844 - INFO - File saved: ./static/uploads\20250128_131418_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 13:14:19,906 - INFO - Processing file with 4 channels, 14 Z-levels
+2025-01-28 13:14:24,728 - ERROR - Error generating measurements: name 'generate_visualization' is not defined
+2025-01-28 13:14:24,816 - INFO - 127.0.0.1 - - [28/Jan/2025 13:14:24] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-01-28 13:17:06,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 13:17:06,316 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 13:17:15,837 - INFO - File saved: ./static/uploads\20250128_131714_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 13:17:15,898 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=14, C=4, Total frames=56
+2025-01-28 13:17:34,070 - INFO - Visualization saved to ./static/results\visualization_20250128_131714.png
+2025-01-28 13:17:34,136 - INFO - 127.0.0.1 - - [28/Jan/2025 13:17:34] "POST /upload HTTP/1.1" 200 -
+2025-01-28 13:21:39,199 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 13:21:39,200 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 13:22:12,098 - INFO - File saved: ./static/uploads\20250128_132211_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 13:22:12,162 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=15, C=4, Total frames=60
+2025-01-28 13:22:30,093 - INFO - Visualization saved to ./static/results\visualization_20250128_132211.png
+2025-01-28 13:22:30,166 - INFO - 127.0.0.1 - - [28/Jan/2025 13:22:30] "POST /upload HTTP/1.1" 200 -
+2025-01-28 13:22:30,242 - INFO - 127.0.0.1 - - [28/Jan/2025 13:22:30] "GET /static/results/visualization_20250128_132211.png HTTP/1.1" 200 -
+2025-01-28 13:31:47,874 - INFO - File saved: ./static/uploads\20250128_133146_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 13:31:47,936 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=15, C=4, Total frames=60
+2025-01-28 13:32:06,020 - INFO - Visualization saved to ./static/results\visualization_20250128_133146.png
+2025-01-28 13:32:06,097 - INFO - 127.0.0.1 - - [28/Jan/2025 13:32:06] "POST /upload HTTP/1.1" 200 -
+2025-01-28 13:32:06,114 - INFO - 127.0.0.1 - - [28/Jan/2025 13:32:06] "GET /static/results/visualization_20250128_133146.png HTTP/1.1" 200 -
+2025-01-28 13:35:49,801 - INFO - File saved: ./static/uploads\20250128_133547_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 13:35:49,858 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=15, C=4, Total frames=60
+2025-01-28 13:36:56,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 13:36:56,221 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 13:37:02,363 - INFO - File saved: ./static/uploads\20250128_133701_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 13:37:02,430 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=15, C=4, Total frames=60
+2025-01-28 13:37:19,794 - INFO - Visualization saved to ./static/results\visualization_20250128_133701.png
+2025-01-28 13:37:19,875 - INFO - 127.0.0.1 - - [28/Jan/2025 13:37:19] "POST /upload HTTP/1.1" 200 -
+2025-01-28 13:37:19,946 - INFO - 127.0.0.1 - - [28/Jan/2025 13:37:19] "GET /static/results/visualization_20250128_133701.png HTTP/1.1" 200 -
+2025-01-28 13:56:50,064 - INFO - 127.0.0.1 - - [28/Jan/2025 13:56:50] "[36mGET /static/results/visualization_20250128_133701.png HTTP/1.1[0m" 304 -
+2025-01-28 13:57:15,561 - INFO - File saved: ./static/uploads\20250128_135713_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 13:57:15,621 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=15, C=4, Total frames=60
+2025-01-28 13:57:33,516 - INFO - Visualization saved to ./static/results\visualization_20250128_135713.png
+2025-01-28 13:57:33,595 - INFO - 127.0.0.1 - - [28/Jan/2025 13:57:33] "POST /upload HTTP/1.1" 200 -
+2025-01-28 13:57:33,619 - INFO - 127.0.0.1 - - [28/Jan/2025 13:57:33] "GET /static/results/visualization_20250128_135713.png HTTP/1.1" 200 -
+2025-01-28 14:16:08,808 - INFO - File saved: ./static/uploads\20250128_141607_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-01-28 14:16:08,894 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=18, C=4, Total frames=72
+2025-01-28 14:17:10,955 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 14:17:10,956 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 14:17:17,967 - INFO - File saved: ./static/uploads\20250128_141716_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-01-28 14:17:18,039 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=18, C=4, Total frames=72
+2025-01-28 14:17:39,063 - INFO - Visualization saved to ./static/results\visualization_20250128_141716.png
+2025-01-28 14:17:39,066 - INFO - Cleaned up old file: ./static/uploads\20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 14:17:39,067 - INFO - Cleaned up old file: ./static/uploads\20250128_131131_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 14:17:39,069 - INFO - Cleaned up old file: ./static/uploads\20250128_131255_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 14:17:39,070 - INFO - Cleaned up old file: ./static/uploads\20250128_131418_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 14:17:39,071 - INFO - Cleaned up old file: ./static/uploads\20250128_131714_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-01-28 14:17:39,074 - INFO - Cleaned up old file: ./static/results\measurements_20250128_131418.csv
+2025-01-28 14:17:39,075 - INFO - Cleaned up old file: ./static/results\measurements_20250128_131714.csv
+2025-01-28 14:17:39,078 - INFO - Cleaned up old file: ./static/results\visualization_20250128_131714.png
+2025-01-28 14:17:39,205 - INFO - 127.0.0.1 - - [28/Jan/2025 14:17:39] "POST /upload HTTP/1.1" 200 -
+2025-01-28 14:17:39,314 - INFO - 127.0.0.1 - - [28/Jan/2025 14:17:39] "GET /static/results/visualization_20250128_141716.png HTTP/1.1" 200 -
+2025-01-28 22:09:25,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-28 22:09:25,397 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 22:09:49,764 - INFO - File saved: ./static/uploads\20250128_220947_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-01-28 22:09:49,897 - INFO - File metadata: Channels=['GFP', 'TRITC', 'Cy5', 'DAPI'], Z=18, C=4, Total frames=72
+2025-01-28 22:10:09,050 - INFO - Visualization saved to ./static/results\visualization_20250128_220947.png
+2025-01-28 22:10:09,051 - INFO - Cleaned up old file: ./static/uploads\20250128_132211_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 22:10:09,052 - INFO - Cleaned up old file: ./static/uploads\20250128_133146_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 22:10:09,053 - INFO - Cleaned up old file: ./static/uploads\20250128_133547_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 22:10:09,054 - INFO - Cleaned up old file: ./static/uploads\20250128_133701_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 22:10:09,055 - INFO - Cleaned up old file: ./static/uploads\20250128_135713_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-01-28 22:10:09,056 - INFO - Cleaned up old file: ./static/uploads\20250128_141607_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-01-28 22:10:09,057 - INFO - Cleaned up old file: ./static/uploads\20250128_141716_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-01-28 22:10:09,058 - INFO - Cleaned up old file: ./static/results\measurements_20250128_132211.csv
+2025-01-28 22:10:09,058 - INFO - Cleaned up old file: ./static/results\measurements_20250128_133146.csv
+2025-01-28 22:10:09,059 - INFO - Cleaned up old file: ./static/results\measurements_20250128_133547.csv
+2025-01-28 22:10:09,060 - INFO - Cleaned up old file: ./static/results\measurements_20250128_133701.csv
+2025-01-28 22:10:09,060 - INFO - Cleaned up old file: ./static/results\measurements_20250128_135713.csv
+2025-01-28 22:10:09,061 - INFO - Cleaned up old file: ./static/results\measurements_20250128_141607.csv
+2025-01-28 22:10:09,061 - INFO - Cleaned up old file: ./static/results\measurements_20250128_141716.csv
+2025-01-28 22:10:09,062 - INFO - Cleaned up old file: ./static/results\visualization_20250128_132211.png
+2025-01-28 22:10:09,063 - INFO - Cleaned up old file: ./static/results\visualization_20250128_133146.png
+2025-01-28 22:10:09,064 - INFO - Cleaned up old file: ./static/results\visualization_20250128_133701.png
+2025-01-28 22:10:09,065 - INFO - Cleaned up old file: ./static/results\visualization_20250128_135713.png
+2025-01-28 22:10:09,065 - INFO - Cleaned up old file: ./static/results\visualization_20250128_141716.png
+2025-01-28 22:10:09,151 - INFO - 127.0.0.1 - - [28/Jan/2025 22:10:09] "POST /upload HTTP/1.1" 200 -
+2025-01-28 22:10:09,223 - INFO - 127.0.0.1 - - [28/Jan/2025 22:10:09] "GET /static/results/visualization_20250128_220947.png HTTP/1.1" 200 -
+2025-02-11 12:56:02,883 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 12:56:02,883 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 12:56:02,885 - INFO -  * Restarting with stat
+2025-02-11 12:56:04,660 - WARNING -  * Debugger is active!
+2025-02-11 12:56:04,665 - INFO -  * Debugger PIN: 124-096-186
+2025-02-11 13:00:16,463 - INFO - File saved: ./static/uploads\20250211_130014_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-02-11 13:00:16,463 - INFO - File saved: ./static/uploads\20250211_130014_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-02-11 13:00:32,864 - ERROR - Upload error: <matplotlib.backends.backend_agg.RendererAgg object at 0x0000019E13153090>
+2025-02-11 13:00:32,878 - INFO - Cleaned up old file: ./static/uploads\20250128_220947_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-02-11 13:00:32,880 - INFO - Cleaned up old file: ./static/results\measurements_20250128_220947.csv
+2025-02-11 13:00:32,881 - INFO - Cleaned up old file: ./static/results\visualization_20250128_220947.png
+2025-02-11 13:00:32,934 - INFO - 127.0.0.1 - - [11/Feb/2025 13:00:32] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-02-11 13:00:35,018 - ERROR - Upload error: main thread is not in main loop
+2025-02-11 13:00:35,081 - INFO - 127.0.0.1 - - [11/Feb/2025 13:00:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-02-11 13:02:13,645 - INFO -  * Detected change in 'C:\\Users\\musku\\Desktop\\CellPhaseDetect\\backend\\app.py', reloading
+2025-02-11 13:02:15,358 - INFO -  * Restarting with stat
+2025-02-11 13:02:17,967 - WARNING -  * Debugger is active!
+2025-02-11 13:02:17,973 - INFO -  * Debugger PIN: 124-096-186
+2025-02-11 13:02:42,963 - INFO - File saved: ./static/uploads\20250211_130241_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-02-11 13:02:42,964 - INFO - File saved: ./static/uploads\20250211_130241_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-02-11 13:02:42,964 - ERROR - Upload error: name 'process_all_channels' is not defined
+2025-02-11 13:02:42,967 - ERROR - Upload error: name 'process_all_channels' is not defined
+2025-02-11 13:02:43,078 - INFO - 127.0.0.1 - - [11/Feb/2025 13:02:43] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-02-11 13:02:43,086 - INFO - 127.0.0.1 - - [11/Feb/2025 13:02:43] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-02-11 13:04:10,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 13:04:10,278 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 13:04:10,280 - INFO -  * Restarting with stat
+2025-02-11 13:04:12,071 - WARNING -  * Debugger is active!
+2025-02-11 13:04:12,077 - INFO -  * Debugger PIN: 124-096-186
+2025-02-11 13:04:20,443 - INFO - File saved: ./static/uploads\20250211_130419_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-02-11 13:04:20,443 - ERROR - Upload error: name 'process_all_channels' is not defined
+2025-02-11 13:04:20,519 - INFO - 127.0.0.1 - - [11/Feb/2025 13:04:20] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-02-11 13:05:42,260 - INFO -  * Detected change in 'C:\\Users\\musku\\Desktop\\CellPhaseDetect\\backend\\app.py', reloading
+2025-02-11 13:05:42,499 - INFO -  * Restarting with stat
+2025-02-11 13:05:44,520 - WARNING -  * Debugger is active!
+2025-02-11 13:05:44,527 - INFO -  * Debugger PIN: 124-096-186
+2025-02-11 13:05:57,118 - INFO - File saved: ./static/uploads\20250211_130555_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_001.nd2
+2025-02-11 13:06:16,757 - INFO - Visualization saved to ./static/results\visualization_20250211_130555.png
+2025-02-11 13:06:16,899 - INFO - 127.0.0.1 - - [11/Feb/2025 13:06:16] "POST /upload HTTP/1.1" 200 -
+2025-02-11 13:13:45,301 - INFO - File saved: ./static/uploads\20250211_131344_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_004.nd2
+2025-02-11 13:14:03,978 - INFO - Visualization saved to ./static/results\visualization_20250211_131344.png
+2025-02-11 13:14:04,092 - INFO - 127.0.0.1 - - [11/Feb/2025 13:14:04] "POST /upload HTTP/1.1" 200 -
+2025-02-11 13:27:14,533 - INFO -  * Detected change in 'C:\\Users\\musku\\Desktop\\CellPhaseDetect\\backend\\app.py', reloading
+2025-02-11 13:27:14,967 - INFO -  * Restarting with stat
+2025-02-11 13:27:22,959 - WARNING -  * Debugger is active!
+2025-02-11 13:27:22,964 - INFO -  * Debugger PIN: 124-096-186
+2025-02-11 13:29:24,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 13:29:24,837 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 13:29:24,838 - INFO -  * Restarting with stat
+2025-02-11 13:29:26,533 - WARNING -  * Debugger is active!
+2025-02-11 13:29:26,539 - INFO -  * Debugger PIN: 124-096-186
+2025-02-11 13:31:08,483 - INFO - File saved: ./static/uploads\20250211_133107_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_007.nd2
+2025-02-11 13:31:30,084 - INFO - 127.0.0.1 - - [11/Feb/2025 13:31:30] "POST /upload HTTP/1.1" 200 -
+2025-02-11 13:31:30,480 - INFO - 127.0.0.1 - - [11/Feb/2025 13:31:30] "GET /static/results/visualization_20250211_133107.png HTTP/1.1" 200 -
+2025-02-11 13:32:14,268 - INFO - 127.0.0.1 - - [11/Feb/2025 13:32:14] "[36mGET /static/results/visualization_20250211_133107.png HTTP/1.1[0m" 304 -
+2025-02-11 13:32:14,583 - INFO - 127.0.0.1 - - [11/Feb/2025 13:32:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-11 13:32:54,583 - INFO - File saved: ./static/uploads\20250211_133253_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-02-11 13:33:15,217 - INFO - 127.0.0.1 - - [11/Feb/2025 13:33:15] "POST /upload HTTP/1.1" 200 -
+2025-02-11 13:33:15,542 - INFO - 127.0.0.1 - - [11/Feb/2025 13:33:15] "GET /static/results/visualization_20250211_133253.png HTTP/1.1" 200 -
+2025-02-11 13:35:30,573 - INFO -  * Detected change in 'C:\\Users\\musku\\Desktop\\CellPhaseDetect\\backend\\app.py', reloading
+2025-02-11 13:35:30,964 - INFO -  * Restarting with stat
+2025-02-11 13:35:34,860 - WARNING -  * Debugger is active!
+2025-02-11 13:35:34,865 - INFO -  * Debugger PIN: 124-096-186
+2025-02-11 13:36:17,967 - INFO - File saved: ./static/uploads\20250211_133616_20241010_RPE1_MeOH_gpCCg_mPCNAr_rbCFfr_60o_002.nd2
+2025-02-11 13:36:39,521 - INFO - 127.0.0.1 - - [11/Feb/2025 13:36:39] "POST /upload HTTP/1.1" 200 -
+2025-02-11 13:36:39,903 - INFO - 127.0.0.1 - - [11/Feb/2025 13:36:39] "GET /static/results/visualization_20250211_133616.png HTTP/1.1" 200 -
+2025-02-11 13:37:12,013 - INFO - 127.0.0.1 - - [11/Feb/2025 13:37:12] "GET /static/results/measurements_20250211_133616.csv HTTP/1.1" 200 -

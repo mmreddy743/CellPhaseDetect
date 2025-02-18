@@ -1,0 +1,69 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply antialiased;
+    }
+
+    body {
+        @apply bg-gray-50;
+    }
+
+    h1 {
+        @apply text-4xl font-bold text-gray-900;
+    }
+
+    h2 {
+        @apply text-3xl font-semibold text-gray-900;
+    }
+
+    h3 {
+        @apply text-2xl font-semibold text-gray-900;
+    }
+}
+
+@layer components {
+    .nav-link {
+        @apply px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-wisc-red hover:bg-gray-50 transition-colors duration-200;
+    }
+
+    .nav-dropdown {
+        @apply absolute z-50 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none;
+    }
+
+    .btn {
+        @apply px-4 py-2 rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors duration-200;
+    }
+
+    .btn-primary {
+        @apply bg-wisc-red text-white hover:bg-wisc-red-dark focus:ring-wisc-red;
+    }
+
+    .btn-secondary {
+        @apply bg-white text-gray-700 border border-gray-300 hover:bg-gray-50 focus:ring-wisc-red;
+    }
+
+    .card {
+        @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200;
+    }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.2s ease-out;
+}
