@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('Agg')  # Set the backend before importing pyplot
+matplotlib.use('Agg')  # Use non-interactive backend for Heroku
 import matplotlib.pyplot as plt
 from flask import Flask, request, jsonify, send_file, send_from_directory, abort
 from flask_cors import CORS
@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 
 # ✅ Initialize Flask App
-app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
+app = Flask(__name__, static_folder='static', static_url_path='/')
 CORS(app)
 
 # ✅ Constants
@@ -57,7 +57,7 @@ def serve_frontend(path):
     
     if path and os.path.exists(full_path):
         return send_from_directory(app.static_folder, path)
-    
+
     return send_from_directory(app.static_folder, 'index.html')
 
 # ✅ Serve Static Files
