@@ -171,3 +171,19 @@
 2025-02-11 13:36:39,521 - INFO - 127.0.0.1 - - [11/Feb/2025 13:36:39] "POST /upload HTTP/1.1" 200 -
 2025-02-11 13:36:39,903 - INFO - 127.0.0.1 - - [11/Feb/2025 13:36:39] "GET /static/results/visualization_20250211_133616.png HTTP/1.1" 200 -
 2025-02-11 13:37:12,013 - INFO - 127.0.0.1 - - [11/Feb/2025 13:37:12] "GET /static/results/measurements_20250211_133616.csv HTTP/1.1" 200 -
+2025-02-18 12:34:19,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 12:34:19,923 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 12:34:19,925 - INFO -  * Restarting with stat
+2025-02-18 12:34:21,656 - WARNING -  * Debugger is active!
+2025-02-18 12:34:21,661 - INFO -  * Debugger PIN: 124-096-186
+2025-02-18 12:42:24,464 - INFO -  * Detected change in 'C:\\Users\\musku\\Desktop\\CellPhaseDetect\\backend\\app.py', reloading
+2025-02-18 12:42:24,679 - INFO -  * Restarting with stat
+2025-02-18 12:42:26,528 - WARNING -  * Debugger is active!
+2025-02-18 12:42:26,533 - INFO -  * Debugger PIN: 263-799-984
+2025-02-18 12:46:01,206 - INFO -  * Detected change in 'C:\\Users\\musku\\Desktop\\CellPhaseDetect\\backend\\app.py', reloading
+2025-02-18 12:46:01,364 - INFO -  * Restarting with stat
+2025-02-18 12:46:03,077 - WARNING -  * Debugger is active!
+2025-02-18 12:46:03,082 - INFO -  * Debugger PIN: 263-799-984
+2025-02-18 12:56:08,715 - INFO -  * Detected change in 'C:\\Users\\musku\\Desktop\\CellPhaseDetect\\backend\\app.py', reloading
+2025-02-18 12:56:08,938 - INFO -  * Restarting with stat
