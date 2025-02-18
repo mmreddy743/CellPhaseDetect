@@ -38,11 +38,11 @@ ALLOWED_EXTENSIONS = {'.nd2'}
 # ✅ Create necessary folders
 def setup_folders():
     """Create folders and clean old files (> 24 hours)."""
-    for folder in [UPLOAD_FOLDER, RESULTS_FOLDER]:
+    for folder in [UPLOAD_FOLDER, RESULTS_FOLDER, app.static_folder]:
         os.makedirs(folder, exist_ok=True)
         for filename in os.listdir(folder):
             filepath = os.path.join(folder, filename)
-            if os.path.getmtime(filepath) < datetime.now().timestamp() - 86400:
+            if os.path.isfile(filepath) and os.path.getmtime(filepath) < datetime.now().timestamp() - 86400:
                 try:
                     os.remove(filepath)
                 except Exception as e:
@@ -53,22 +53,21 @@ def setup_folders():
 @app.route('/<path:path>')
 def serve_frontend(path):
     """Serve React static files or index.html for unmatched routes."""
-    if path and os.path.exists(os.path.join(app.static_folder, path)):
+    full_path = os.path.join(app.static_folder, path)
+    
+    if path and os.path.exists(full_path):
         return send_from_directory(app.static_folder, path)
+    
     return send_from_directory(app.static_folder, 'index.html')
 
 # ✅ Serve Static Files
 @app.route('/static/<path:filename>')
 def serve_static(filename):
     """Serve static files with error handling."""
-    try:
-        file_path = os.path.join('static', filename)
-        if not os.path.exists(file_path):
-            abort(404)
-        return send_file(file_path)
-    except Exception as e:
-        logging.error(f"Static file error: {str(e)}")
+    file_path = os.path.join('static', filename)
+    if not os.path.exists(file_path):
         abort(404)
+    return send_file(file_path)
 
 # ✅ Image Segmentation Function
 def segment_nuclei(image):
@@ -192,4 +191,4 @@ def upload_file():
 if __name__ == '__main__':
     setup_folders()
     port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=port, debug=True)
