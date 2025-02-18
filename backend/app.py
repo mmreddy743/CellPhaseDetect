@@ -1,7 +1,7 @@
 import matplotlib
 matplotlib.use('Agg')  # Set the backend before importing pyplot
 import matplotlib.pyplot as plt
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify, send_file, send_from_directory, abort
 from flask_cors import CORS
 import os
 import numpy as np
